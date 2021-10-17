@@ -1,7 +1,11 @@
-import Head from 'next/head';
-import Image from 'next/image';
-import styles from '../styles/Home.module.css';
+import {Banner} from '../components/Banner';
+import {Cases} from '../components/Cases';
 
 export default function Home() {
-  return <div></div>;
+  return (
+    <div className="home">
+      <Banner />
+      <Cases />
+    </div>
+  );
 }
